@@ -1,5 +1,5 @@
 import random
-from re import S
+
 def play():
     user = input(" Lets play Rock-Paper-Scissors. Choose one --'r' for rock, 'p' for paper, 's' for scissors :")
     computer = random.choice(['r','p','s'])
